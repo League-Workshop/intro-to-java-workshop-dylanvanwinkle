@@ -5,10 +5,10 @@ import javax.swing.JOptionPane;
 import javax.swing.ImageIcon;
 
 public class DragonFight {
-	// 1. Put all of the game code inside the main bethod (below) 
+	// 1. Put all of the game code inside the main method (below) 
 	public static void main(String[] args) {
 
-		ImageIcon dragon = new ImageIcon("src/section4/dragonPicture.jpg");		
+		ImageIcon dragon = new ImageIcon("src/section4/dragonPictureSmall.jpg");		
 		
 		JOptionPane.showMessageDialog(null, "Defeat the dragon to take its treasure!", "Dragon Fighter", 0, dragon);
 		// 2. Create a variable called "playerHealth" to store your health (set it equal to 100)
