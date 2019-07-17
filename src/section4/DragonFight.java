@@ -22,27 +22,33 @@ public class DragonFight {
 		
 		
 		JOptionPane.showMessageDialog(null, "playerHealth is " + playerHealth + " dragonHeath is " + dragonHealth);
-		// 6.  Delete the slashes at the beginning of the next line.  
+		// 6.  Delete the slashes at the beginning of the next line.  v
 		
 		while(playerHealth>0 && dragonHealth>0) {    //this line of code keeps the battle going until someone's health reaches 0 
 	
 			// 7. Add a closing mustache at the very bottom of this program (since we just added an opening mustache on the previous step).
 			
 			// 8. Ask the player in a pop-up if they want to attack the dragon with a yell or a kick
+			playerAttack = 0;
 			String input = "";
-			input = JOptionPane.showInputDialog("Whould you like to attack with kick or yell");
+			while(!input.equals( "yell") && !input.equals( "kick" )) {
+				input = JOptionPane.showInputDialog("Whould you like to attack with kick or yell");
+				if(input == null) {
+					return;
+				}
+				input = input.toLowerCase();
+			}
 			
 			// 9. If they typed in "yell":
-			if(input.equalsIgnoreCase("Yell")) {
+			if(input.equals( "yell")) {
 				//-- Find a random number between 0 and 10 and store it in dragonDamage
-				Random a = new Random();
 				playerAttack = 10;
 				//-- Subtract that number from the dragon's health variable 
 				dragonHealth = dragonHealth - playerAttack; 
 			}
 			
 			// 10. If they typed in "kick":
-			if(input.equalsIgnoreCase("Kick")) {		
+			if(input.equals( "kick")) {		
 			//-- Find a random number between 0 and 25 and store it in dragonDamage
 				Random i = new Random();
 				playerAttack = i.nextInt(5) + 35;

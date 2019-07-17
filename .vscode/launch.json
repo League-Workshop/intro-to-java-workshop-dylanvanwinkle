@@ -1,0 +1,287 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample1<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "RobotExample1",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample2<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "RobotExample2",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample3<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "RobotExample3",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample4<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "RobotExample4",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample5<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "RobotExample5",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample6<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "RobotExample6",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample7<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "RobotExample7",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample8<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "RobotExample8",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample9<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "RobotExample9",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FreeTTS<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "com.sun.speech.freetts.FreeTTS",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FreeTTSTime<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "com.sun.speech.freetts.FreeTTSTime",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VoiceDirectory<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "com.sun.speech.freetts.VoiceDirectory",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClusterUnitDatabase<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "com.sun.speech.freetts.clunits.ClusterUnitDatabase",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DiphoneUnitDatabase<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "com.sun.speech.freetts.diphone.DiphoneUnitDatabase",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CMULexicon<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "com.sun.speech.freetts.en.us.CMULexicon",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AlanVoiceDirectory<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "com.sun.speech.freetts.en.us.cmu_time_awb.AlanVoiceDirectory",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KevinVoiceDirectory<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LetterToSoundImpl<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "com.sun.speech.freetts.lexicon.LetterToSoundImpl",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Timer<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "com.sun.speech.freetts.util.Timer",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WaveUtils<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "com.sun.speech.freetts.util.WaveUtils",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FlamingNinjaStar<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section2.FlamingNinjaStar",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FourSquare<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section2.FourSquare",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyFirstJavaProgram<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section2.MyFirstJavaProgram",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PentagonCrazy<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section2.PentagonCrazy",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SmartShapes<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section2.SmartShapes",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Spiral<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section2.Spiral",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StarShow<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section2.StarShow",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TriangleShell<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section2.TriangleShell",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CandyCrush<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section3.CandyCrush",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Greeter<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section3.Greeter",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloWorldIWillDominatYou<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section3.HelloWorldIWillDominatYou",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MadlibsOfTheAmazon<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section3.MadlibsOfTheAmazon",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SpeakAndSpell<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section3.SpeakAndSpell",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StephenHawking<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section3.StephenHawking",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WorldDomination<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section3.WorldDomination",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DragonFight<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section4.DragonFight",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuizGame<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section4.QuizGame",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotTreasureHunt<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section4.RobotTreasureHunt",
+            "projectName": "IntroToJavaWorkshop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ScaryMaze<IntroToJavaWorkshop>",
+            "request": "launch",
+            "mainClass": "section5.ScaryMaze",
+            "projectName": "IntroToJavaWorkshop"
+        }
+    ]
+}
