@@ -15,8 +15,7 @@ public class addittionCaculater {
         int number2 = 0;
         int answer = 0;
 
-        JOptionPane.showMessageDialog(null,
-                "this is a adittion caclulater you will type in two numbers and get a answer ");
+        JOptionPane.showMessageDialog(null, "this is a adittion calulator you will type in two numbers and get a answer ");
         String input1 = JOptionPane.showInputDialog(null, "type in your first number");
 
         number1 = Integer.valueOf(input1);

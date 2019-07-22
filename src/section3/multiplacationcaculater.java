@@ -2,7 +2,7 @@ package section3;
 
 import javax.swing.JOptionPane;
 
-public class sudtractioncaculater {
+public class multiplacationcaculater {
 
     public static void main(String[] args) {
         for (; true;) {
@@ -15,8 +15,7 @@ public class sudtractioncaculater {
         int number2 = 0;
         int answer = 0;
 
-        JOptionPane.showMessageDialog(null,
-                "this is a subtraction calulator you will type in two numbers and get a answer ");
+        JOptionPane.showMessageDialog(null, "this is a multiplication calulator you will type in two numbers and get a answer ");
         String input1 = JOptionPane.showInputDialog(null, "type in your first number");
 
         number1 = Integer.valueOf(input1);
@@ -25,7 +24,7 @@ public class sudtractioncaculater {
 
         number2 = Integer.valueOf(input2);
 
-        answer = number1 - number2;
+        answer = number1 * number2;
 
         JOptionPane.showMessageDialog(null, "the answer is " + answer);
 
