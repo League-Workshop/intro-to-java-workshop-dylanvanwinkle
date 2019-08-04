@@ -50,7 +50,7 @@ public class DragonFight {
 		// 5. Create a variable to hold the damage the dragon's attack does each round
 		int dragonAttack = 0;
 
-		JOptionPane.showMessageDialog(null, "playerHealth is " + playerHealth + " dragonHeath is " + dragonHealth);
+		JOptionPane.showMessageDialog(null, "player health is " + playerHealth + " dragon health is " + dragonHealth);
 		// 6. Delete the slashes at the beginning of the next line. v
 
 		while (playerHealth > 0 && dragonHealth > 0) { // this line of code keeps the battle going until someone's
@@ -65,7 +65,7 @@ public class DragonFight {
 			String input = "";
 			while (!input.equals("yell") && !input.equals("kick") && !input.equals("armor") && !input.equals("sword")) {
 				input = JOptionPane
-						.showInputDialog("Whould you like to attack with sword, kick or yell or defend with armor");
+						.showInputDialog("Whould you like to (1) attack with sword,(2) attack with kick, (3) attack with yell or (4) defend with armor");
 				if (input == null) {
 					return;
 				}
@@ -129,14 +129,14 @@ public class DragonFight {
 			else if (dragonHealth <= 0) {
 				JOptionPane.showMessageDialog(null, "The dragon is dead and you took a ton of gold");
 				JOptionPane.showMessageDialog(null,
-						"playerHealth is " + playerHealth + " and player took " + dragonAttack + " damage "
-								+ "dragonHeath is " + dragonHealth + " and dragon took " + playerAttack + " damage");
+						"player health is " + playerHealth + " and player took " + dragonAttack + " damage "
+								+ "dragon health is " + dragonHealth + " and dragon took " + playerAttack + " damage");
 			} else {
 				// -- Tell the user that the dragon is dead and they took a ton of gold!
 				// 15. Else
 				JOptionPane.showMessageDialog(null,
-						"playerHealth is " + playerHealth + " and player took " + dragonAttack + " damage "
-								+ "dragonHeath is " + dragonHealth + " and dragon took " + playerAttack + " damage");
+						"player health is " + playerHealth + " and player took " + dragonAttack + " damage "
+								+ "dragon health is " + dragonHealth + " and dragon took " + playerAttack + " damage");
 				// -- Pop up a message that tells the their current health and the dragon's
 				// currently health (Bonus: Also display the amount of health that was lost for
 				// each player this round)
