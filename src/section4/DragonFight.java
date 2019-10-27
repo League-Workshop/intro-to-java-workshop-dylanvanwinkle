@@ -36,7 +36,7 @@ public class DragonFight {
 
 	public static void game() {
 		int playerHealthStart = 110;
-		int dragonHealthStart = 135;
+		int dragonHealthStart = 180;
 
 		// 2. Create a variable called "playerHealth" to store your health (set it equal
 		// to 100)
@@ -53,6 +53,8 @@ public class DragonFight {
 		JOptionPane.showMessageDialog(null, "player health is " + playerHealth + " dragon health is " + dragonHealth);
 		// 6. Delete the slashes at the beginning of the next line. v
 
+		Boolean playerUsedHealthBoost = false;
+
 		while (playerHealth > 0 && dragonHealth > 0) { // this line of code keeps the battle going until someone's
 														// health reaches 0
 
@@ -63,19 +65,29 @@ public class DragonFight {
 			// or a kick
 			playerAttack = 0;
 			String input = "";
-			while (!input.equals("yell") && !input.equals("kick") && !input.equals("armor") && !input.equals("sword")) {
+			while (!input.equals("yell") && !input.equals("kick") && !input.equals("health boost") && !input.equals("sword")) {
+				String message = "Whould you like to (1) attack with sword,(2) attack with kick, (3) attack with yell or (4) heal with Health Boost";
+				if(playerUsedHealthBoost){
+					message ="Whould you like to (1) attack with sword,(2) attack with kick or (3) attack with yell";
+				}
 				input = JOptionPane
-						.showInputDialog("Whould you like to (1) attack with sword,(2) attack with kick, (3) attack with yell or (4) defend with armor");
+						.showInputDialog(message);
 				if (input == null) {
 					return;
 				}
 				input = input.toLowerCase();
 			}
 
-			if (input.equals("armor")) {
-				Random armor = new Random();
-				playerHealth = playerHealth + armor.nextInt(150);
-				dragonHealth = dragonHealth - playerAttack + 20;
+			if (input.equals("health boost") && playerUsedHealthBoost == false) {
+				playerUsedHealthBoost = true;
+				Random HealthBoost = new Random();
+				playerHealth = playerHealth + HealthBoost.nextInt(25) + 130;
+				dragonHealth = dragonHealth - playerAttack;
+
+				//if (input.equals("armor")) {
+				//	Random armor = new Random();
+				//	playerHealth = playerHealth + armor.nextInt(50);
+				//	dragonHealth = dragonHealth - playerAttack;
 			}
 
 			if (input.equals("sword")) {
@@ -118,7 +130,9 @@ public class DragonFight {
 				JOptionPane.showMessageDialog(null, "Since you both lost, restart and try again!");
 				playerHealth = playerHealthStart;
 				dragonHealth = dragonHealthStart;
-			} else if (playerHealth <= 0) {
+				playerUsedHealthBoost = false;
+			}
+			else if (playerHealth <= 0) {
 				// -- Tell the user that they lost
 				JOptionPane.showMessageDialog(null, "You lost");
 				JOptionPane.showMessageDialog(null,
