@@ -81,7 +81,7 @@ public class DragonFight {
 			if (input.equals("health boost") && playerUsedHealthBoost == false) {
 				playerUsedHealthBoost = true;
 				Random HealthBoost = new Random();
-				playerHealth = playerHealth + HealthBoost.nextInt(25) + 130;
+				playerHealth = playerHealth + HealthBoost.nextInt(30) + 130;
 				dragonHealth = dragonHealth - playerAttack;
 
 				//if (input.equals("armor")) {
@@ -97,7 +97,7 @@ public class DragonFight {
 			}
 			// 9. If they typed in "yell":
 			if (input.equals("yell")) {
-				// -- Find a random number betw+en 0 and 10 and store it in dragonDamage
+				// -- Find a random number betwen 0 and 10 and store it in dragonDamage
 				playerAttack = 15;
 				// -- Subtract that number from the dragon's health variable
 				dragonHealth = dragonHealth - playerAttack;
@@ -118,7 +118,7 @@ public class DragonFight {
 
 			// number between 0 and 35 and store it in playerDamage
 			Random fireball = new Random();
-			dragonAttack = fireball.nextInt(25) + 35;
+			dragonAttack = fireball.nextInt(20) + 30;
 			playerHealth = playerHealth - dragonAttack;
 			// 12. Subtract this number from the player's health
 
